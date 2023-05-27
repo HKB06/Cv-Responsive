@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+             <nav class="nav bd-container">
+                    <a href="#" class="nav__logo">Hugo</a>
+                
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link active-link">
+                                  <i class='bx bx-home nav__icon'></i>Acceuil
+                                </a>
+                             </li> 
+
+                             <li class="nav__item">
+                                <a href="#profile" class="nav__link">
+                                  <i class='bx bx-user nav__icon' ></i>Profil
+                                </a>
+                             </li>
+
+                             <li class="nav__item">
+                                <a href="#education" class="nav__link">
+                                    <i class='bx bx-book nav__icon' ></i>Parcours Scolaires
+                                </a>
+                             </li>
+
+                             <li class="nav__item">
+                                <a href="#skills" class="nav__link">
+                                    <i class='bx bx-receipt nav__icon' ></i>Skills
+                                </a>
+                             </li>
+
+                             <li class="nav__item">
+                                <a href="#experience" class="nav__link">
+                                    <i class='bx bx-briefcase-alt nav__icon' ></i>Expériences
+                                </a>
+                             </li>
+
+                             <li class="nav__item">
+                                <a href="#certificates" class="nav__link">
+                                    <i class='bx bx-award nav__icon' ></i>Diplômes
+                                </a>
+                             </li>
+
+                              <li class="nav__item">
+                                <a href="#references" class="nav__link">
+                                    <i class='bx bx-link-external nav__icon' ></i>Références
+                                </a>
+                             </li>
+                        </ul>
+                   </div>
+
+                   <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                   </div>
+              </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                
+                <div class="resume__left">
+                     <!--========== HOME ==========-->
+                     <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/PP.JPG" alt="" class="home__img">
+
+                                <h1 class="home__title"> Khaled--Brotons <b>Hugo</b> </h1>
+                                <h3 class="home__profession">Devellopeur Web Junior </h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/CvHugoKhaled.pdf" class="home__button-movil">Téléchargement </a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Av. Corniche Fleurie Nice 06200 - France
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> Hugo.khaled.br@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> 06 46 40 11 96
+                                </span>
+                            </div>
+                        </div>
+                    
+                        <!-- Theme change button -->
+
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+
+                        <i class='bx bx-download generate-pdf ' title="Generate-PDF" id="resume-button"></i>
+
+
+                 </section>         
+                                        
+                    <!--========== SOCIAL ==========-->
+
+                    <section class="social section">
+
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin .com/"  target="_blank"  class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @HugoKhaled
+                            </a>
+                            <a href="https://github.com/HKB06" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i> @HKB06
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @HugoKhaled
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+
+                    <section class="profile section" id="profile">
+
+                        <h2 class="section-title">Profil</h2>
+                        <p class="profile__description">Actuellement, j'achève ma deuxième année de formation à Mydigitalschool, où je me spécialise dans le développement Web. Dans cette perspective, je suis activement à la recherche d'une opportunité d'alternance au sein d'une entreprise.
+                        </p>
+                        
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Parcours Scolaires </h2>
+
+                                <div class="education__container bd-grid">
+                                    <div class="education__content">
+                                        <div class="education__time">
+                                            <span class="education__rounder"></span>
+                                            <span class="education__line"></span>
+                                        </div>
+                                            <div class="education__data bd-grid">
+                                                <h3 class="education__title">Bachelor cycle web et multimedia</h3>
+                                                <span class="education__studies">Mydigitalschool</span>
+                                                <span class="education__year">2021-2024</span>
+                                            </div>
+                                        </div>
+
+                                <div class="education__content">
+                                    <div class="education__time">
+                                        <span class="education__rounder"></span>
+                                        <span class="education__line"></span>
+                                    </div>
+                                        <div class="education__data bd-grid">
+                                            <h3 class="education__title">Licence en Mathematique</h3>
+                                            <span class="education__studies">Université Côte d'Azur – Campus Valrose</span>
+                                            <span class="education__year">2019-2020</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="education__content">
+                                        <div class="education__time">
+                                            <span class="education__rounder"></span>
+                                            <!-- <span class="education__line"></span> -->
+                                        </div>
+                                            <div class="education__data bd-grid">
+                                                <h3 class="education__title">Baccalaureat STI2D</h3>
+                                                <span class="education__studies">Lycée Des Eucalyptus</span>
+                                                <span class="education__year">2015-2019</span>
+                                            </div>
+                                        </div>    
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Html
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Css
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> JavaScript
+                                    </li>
+                                </ul>
+
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Wordpress
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Adobe
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Wizishop
+                                    </li>
+                                </ul>
+                            
+                             </div>
+                        
+                    </section>
+                </div>  
+            
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Expériences</h2>
+                        <div class="experience__container bd-grid">
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Création de plusieurs sites Wordpress</h3>
+                                    <span class="experience__company">CMS</span>
+                                    <p class="experience__description">Grâce à plusieurs exercices en classe, j'ai eu la possibilité de créer plusieurs sites WordPress en utilisant Elementor et Divi. Actuellement, je suis responsable du site web d'une entreprise.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Conception de site en HTML/CSS/JS</h3>
+                                    <span class="experience__company">Développement web</span>
+                                    <p class="experience__description">J'ai eu la chance de mettre en pratique mes compétences en HTML, CSS et JavaScript grâce à différents exercices en classe ainsi que chez moi, ce qui m'a permis de concevoir plusieurs sites web, dont ce portfolio.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Projet avec la suite Adobe</h3>
+                                    <span class="experience__company">Réalisation graphique </span>
+                                    <p class="experience__description">J'ai eu l'opportunité d'appliquer mes compétences en design à travers divers exercices en classe, ce qui m'a permis de créer plusieurs réalisations telles qu'un clip promotionnel pour des affiches d'événements variés, ainsi que des montages photo.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Diplômes</h2>
+
+                        <div class="certificate__container bd-grid">
+                            
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">2021-2024 Bachelor Cycle Web et Multimedia</h3>
+                                <p class="certificate__description">Ce Bachelor est une formation en 3 ans composée de deux premières années de formation en initial et d'une année de spécialisation en rythme alterné</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">2020-21 : Voyage Linguistique </h3>
+                                <p class="certificate__description">Pendant l'été, j'ai passé un mois en Angleterre et un mois à Malte dans le but d'améliorer mon anglais.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">2020 : Brevet d'aptitude aux fonctions d'animateur en accueils collectifs de mineurs (BAFA) </h3>
+                                <p class="certificate__description">Le brevet d'aptitude aux fonctions d'animateur permet d'encadrer à titre non professionnel, de façon occasionnelle, des enfants et des adolescents en accueils collectifs de mineurs </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">2019 : Baccalauréat Sciences et Technologie de l'industrie de Développement Durable </h3>
+                                <p class="certificate__description">Le bac technologique sciences et technologies de l'industrie et du développement durable (STI2D) développe des compétences pour toutes celles et tous ceux qui veulent imaginer, créer, concevoir et réaliser les produits de demain. </p>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+
+                    <section class="references section" id="references">
+                        <h2 class="section-title">Références</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Freelance Sales Development Representative Social Entrepreneur</span>
+                                <h3 class="references__title">Nadia Arfani</h3>
+                                <ul class="references__contact">
+                                    <li>Télephone : 0644864841</li>
+                                    <li>Mail: arfaninadia@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Gestionnaire Courrier Cabinet du Président du Conseil Départemental </span>
+                                <h3 class="references__title">Fabrice Lugarldo</h3>
+                                <ul class="references__contact">
+                                    <li>Télephone : 0687946154</li>
+                                    <li>Mail: Fabricelugarldo@gmail.com</li>
+                                </ul>
+                            </div>
+        
+                        </div>
+                        
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+
+                    <section class="languages section">
+                        <h2 class="section-title">Langues</h2>
+
+
+                            <div class="languages__container">
+                                <ul class="languages__content bd-grid">
+                                    <li class="languages__name">
+                                        <span class="languages__circle"></span> Anglais (B2)
+                                    </li>
+                                    <li class="languages__name">
+                                        <span class="languages__circle"></span> Espagnol (A2)
+                                    </li>
+                                    <li class="languages__name">
+                                        <span class="languages__circle"></span> Français 
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+
+                    <section class="interests section">
+                        <h2 class="section-title">Hobby</h2>
+                        <div class="interests__container bd-grid">
+
+
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Musique</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-ball interests__icon' ></i>
+                                <span class="interests__name">Football</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name">Voyage</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Sport</span>
+                            </div>
+                        </div>
+
+
+                        
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
